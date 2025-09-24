@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "loops-chat-ws",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-24",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CHAT_ROOM",
+        "class_name": "ChatRoom",
+        "script_name": "loops-chat-ws"
+      }
+    ]
+  }
+}
